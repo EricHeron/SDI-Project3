@@ -97,6 +97,29 @@ while (needsFood > 1){
 }
 console.log("All the pets have been fed.");
 
+// String function
+var myString = function(nameOfPet, petAge){
+	console.log(nameOfPet + " is " + petAge + " years old.");
+	if (petAge === 1){
+		console.log("He's just a baby!");
+	}
+}
+// String return
+myString("Number Two", 8);
+myString("Murphy", 2);
+myString("Neilon", 1);
+myString("Sam", 1);
+
+// Nested loop
+for (numberOfPets = 4; numberOfPets > 0 ;numberOfPets--){
+	for (numberOfNaps = 4; numberOfNaps > 0; numberOfNaps--){
+	console.log(numberOfPets + " pets need a bath. " + numberOfPets + " pets need a nap.");
+	}
+}
+// Returned after loops have stopped
+console.log("All pets have had their baths and they have all napped.");
+
+
 
 
 
