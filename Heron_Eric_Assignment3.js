@@ -104,7 +104,7 @@ var myString = function(nameOfPet, petAge){
 		console.log("He's just a baby!");
 	}
 }
-// String return
+// Calling of String Function with arguments
 myString("Number Two", 8);
 myString("Murphy", 2);
 myString("Neilon", 1);
@@ -133,12 +133,6 @@ handleData(json);
 
 console.log("My friend Oscar picked up Sam, so now we are back to having 3 pets in our house.");
 console.log("Thank you for reading!");
-
-
-
-
-
-
 
 
 // (Back) This instructs the user on how to return to the beginning
