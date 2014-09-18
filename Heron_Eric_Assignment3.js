@@ -26,9 +26,14 @@ if (myConfirm === true){
 	console.log("She has one eye and a docked tail! I like to call her my pirate bobcat.")
 }
 
-// Boolean function
-
-
+// Boolean function with boolean logic
+var myBoolean = function(randomNum1, randomNum2){
+	if (randomNum1 >= 5 && randomNum2 >= 10){
+		console.log("We have a " + pet1 + ", a " + pet2 + " and a " + pet3 + ".");
+	}
+}
+// Calling of the boolean function
+myBoolean(10, 13);
 
 
 
