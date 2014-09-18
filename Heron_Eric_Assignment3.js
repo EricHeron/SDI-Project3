@@ -119,7 +119,15 @@ for (numberOfPets = 4; numberOfPets > 0 ;numberOfPets--){
 // Returned after loops have stopped
 console.log("All pets have had their baths and they have all napped.");
 
-
+//JSON information
+var handleData = function (json) {
+	for (var i = 0; i < json.pets.length; i++){
+		var pet = json.pets[i];
+		console.log("Pet ID: " + pet.uuid + ", Name: " + pet.name + ", Pet age: " + pet.age);
+	}
+}
+console.log("I gave each pet a number to track them better.");
+handleData(json);
 
 
 
