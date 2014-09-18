@@ -3,7 +3,7 @@
 // Project 3
 
 
-// Variables
+// Global Variables
 var pet1 = "cat";
 var pet2 = "dog";
 var pet3 = "bearded dragon";
@@ -25,7 +25,7 @@ if (myConfirm === true){
 	console.log("I love all of my pets!");
 }
 
-// Boolean function with arguments and boolean logic (randomNum1 = 5 or greater and randomNum2 = 10 or greater) = true, otherwise false
+// Boolean function with arguments and boolean logic(randomNum1 = 5 or greater and randomNum2 = 10 or greater) = true, otherwise false
 // If false, console.log will not display
 var myBoolean = function(randomNum1, randomNum2){
 	if (randomNum1 >= 5 && randomNum2 >= 10){
@@ -65,7 +65,17 @@ petNames.push("Sam");
 var petSitting = petNames.pop();
 console.log(petSitting + " is a kitten that my wife and I are watching for a friend. He is adorable.");
 
+var math1 = function(firstNum, secondNum){
+	var subtract = firstNum - secondNum;
+	console.log(subtract + " pet is a lot of work.");
+}
+math1(4, 3);
 
+var math2 = function(num1, num2){
+	var add = num1 + num2;
+	console.log("So you can imagine the amount of work needed for " + add + " pets!");
+}
+math2(3, 1);
 
 
 
