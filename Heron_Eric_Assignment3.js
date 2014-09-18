@@ -23,7 +23,7 @@ var myConfirm = confirm("Let me tell you about my 3 pets.");
 // Confirm conditional
 if (myConfirm === true){
 	console.log("I love all of my pets!");
-}
+
 
 // Boolean function with arguments and boolean logic(randomNum1 = 5 or greater and randomNum2 = 10 or greater) = true, otherwise false
 // If false, console.log will not display
@@ -65,18 +65,37 @@ petNames.push("Sam");
 var petSitting = petNames.pop();
 console.log(petSitting + " is a kitten that my wife and I are watching for a friend. He is adorable.");
 
+// Number function with arguments
 var math1 = function(firstNum, secondNum){
 	var subtract = firstNum - secondNum;
+	
+// Number return then output
 	console.log(subtract + " pet is a lot of work.");
 }
+// Calling of Number function
 math1(4, 3);
 
+// Another number function
 var math2 = function(num1, num2){
 	var add = num1 + num2;
+	
+// Number return then output
 	console.log("So you can imagine the amount of work needed for " + add + " pets!");
+	console.log("Feeding the pets is one of the simple tasks.");
 }
+// Calling of Number function
 math2(3, 1);
 
+//While loop and another nested conditional.
+var needsFood = 4;
+while (needsFood > 1){
+	console.log(needsFood + " pets need to eat!");
+	needsFood--;
+	if (needsFood === 1){
+		console.log(needsFood + " pet needs to eat.");
+	}
+}
+console.log("All the pets have been fed.");
 
 
 
@@ -86,6 +105,11 @@ math2(3, 1);
 
 
 
+
+// (Back) This instructs the user on how to return to the beginning
+} else {
+	console.log("Please refresh to start over.");
+}
 // This code will run if the user types no.
 } else {
 	console.log("Thanks for stopping by!");
