@@ -127,8 +127,12 @@ var handleData = function (json) {
 	}
 }
 console.log("I gave each pet a number to track them better.");
+
+// Calling the json data
 handleData(json);
 
+console.log("My friend Oscar picked up Sam, so now we are back to having 3 pets in our house.");
+console.log("Thank you for reading!");
 
 
 
